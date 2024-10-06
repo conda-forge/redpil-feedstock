@@ -1,5 +1,5 @@
 {% set name = "redpil" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9ed3318eaed00e3565c8e38e74aec770a45f2e2de500c4800584bc8a8c5d523c
+  sha256: fba8a5330bcfd3b8e64f916b3dff323690c2ae341f009d679acc1830cbb7d932
 
 build:
   noarch: python
